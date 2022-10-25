@@ -9,7 +9,6 @@ namespace LogBook
     public class Student
     {
         
-
         public int Number { get; set; }
         public string? FirtName { get; set; }
         public string? LastName { get; set; }
@@ -20,24 +19,6 @@ namespace LogBook
         public byte? Crystal { get; set; }
 
 
-        public Student(int number, string? firtName, string? lastName, string? fatherName, DateTime? lastIn, byte? laboratoryWork, byte? classWork, byte? crystal)
-        {
-            Number = number;
-            FirtName = firtName;
-            LastName = lastName;
-            FatherName = fatherName;
-            LastIn = lastIn;
-            LaboratoryWork = laboratoryWork;
-            ClassWork = classWork;
-            Crystal = crystal;
-        }
-
-
-
-        public override string ToString()
-        {
-            return $"{FirtName} {LastName} {FatherName}";
-        }
 
     }
 }
