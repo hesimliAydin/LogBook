@@ -32,7 +32,7 @@ namespace LogBook
                 },
                 new Student
                 {
-                    Number=2,
+                    Number=3,
                     FirtName="Kamran",
                     LastName="Kerimzade",
                     FatherName ="Natiq",
@@ -42,7 +42,7 @@ namespace LogBook
                 },
                 new Student
                 {
-                    Number=2,
+                    Number=4,
                     FirtName="Revan",
                     LastName="Sadiqov",
                     FatherName ="Elsen",
@@ -69,7 +69,7 @@ namespace LogBook
 
                 uc.Location = new Point(0, location);
                 location += 200;
-
+                
                 this.panel1.Controls.Add(uc);
             }
         }

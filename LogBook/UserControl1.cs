@@ -23,6 +23,7 @@ namespace LogBook
             InitializeComponent();
 
             nameLbl.Text = student.FullName;
+            lastDayLbl.Text = student.LastIn.ToShortDateString();
         }
     }
 }

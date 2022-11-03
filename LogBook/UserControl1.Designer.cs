@@ -36,6 +36,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.inspectionWorkCB = new System.Windows.Forms.ComboBox();
             this.classWorkCB = new System.Windows.Forms.ComboBox();
+            this.istirakRadioB = new System.Windows.Forms.RadioButton();
+            this.gecikibRadioB = new System.Windows.Forms.RadioButton();
+            this.gelmeyibRadioB = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -108,7 +111,21 @@
             // 
             // inspectionWorkCB
             // 
+            this.inspectionWorkCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.inspectionWorkCB.FormattingEnabled = true;
+            this.inspectionWorkCB.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
             this.inspectionWorkCB.Location = new System.Drawing.Point(825, 50);
             this.inspectionWorkCB.Name = "inspectionWorkCB";
             this.inspectionWorkCB.Size = new System.Drawing.Size(43, 28);
@@ -116,16 +133,63 @@
             // 
             // classWorkCB
             // 
+            this.classWorkCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.classWorkCB.FormattingEnabled = true;
+            this.classWorkCB.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
             this.classWorkCB.Location = new System.Drawing.Point(1023, 50);
             this.classWorkCB.Name = "classWorkCB";
             this.classWorkCB.Size = new System.Drawing.Size(43, 28);
             this.classWorkCB.TabIndex = 7;
             // 
+            // istirakRadioB
+            // 
+            this.istirakRadioB.AutoSize = true;
+            this.istirakRadioB.Location = new System.Drawing.Point(600, 62);
+            this.istirakRadioB.Name = "istirakRadioB";
+            this.istirakRadioB.Size = new System.Drawing.Size(17, 16);
+            this.istirakRadioB.TabIndex = 8;
+            this.istirakRadioB.TabStop = true;
+            this.istirakRadioB.UseVisualStyleBackColor = true;
+            // 
+            // gecikibRadioB
+            // 
+            this.gecikibRadioB.AutoSize = true;
+            this.gecikibRadioB.Location = new System.Drawing.Point(623, 62);
+            this.gecikibRadioB.Name = "gecikibRadioB";
+            this.gecikibRadioB.Size = new System.Drawing.Size(17, 16);
+            this.gecikibRadioB.TabIndex = 8;
+            this.gecikibRadioB.TabStop = true;
+            this.gecikibRadioB.UseVisualStyleBackColor = true;
+            // 
+            // gelmeyibRadioB
+            // 
+            this.gelmeyibRadioB.AutoSize = true;
+            this.gelmeyibRadioB.Location = new System.Drawing.Point(646, 62);
+            this.gelmeyibRadioB.Name = "gelmeyibRadioB";
+            this.gelmeyibRadioB.Size = new System.Drawing.Size(17, 16);
+            this.gelmeyibRadioB.TabIndex = 8;
+            this.gelmeyibRadioB.TabStop = true;
+            this.gelmeyibRadioB.UseVisualStyleBackColor = true;
+            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gelmeyibRadioB);
+            this.Controls.Add(this.gecikibRadioB);
+            this.Controls.Add(this.istirakRadioB);
             this.Controls.Add(this.classWorkCB);
             this.Controls.Add(this.inspectionWorkCB);
             this.Controls.Add(this.groupBox1);
@@ -149,8 +213,11 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
-        private ComboBox inspectionWorkCB;
-        private ComboBox classWorkCB;
         public Label nameLbl;
+        public ComboBox inspectionWorkCB;
+        public ComboBox classWorkCB;
+        private RadioButton istirakRadioB;
+        private RadioButton gecikibRadioB;
+        private RadioButton gelmeyibRadioB;
     }
 }

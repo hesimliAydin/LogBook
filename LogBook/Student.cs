@@ -12,9 +12,9 @@ namespace LogBook
         public string? FirtName { get; set; }
         public string? LastName { get; set; }
         public string? FatherName { get; set; }
-        public DateTime? LastIn { get; set; }
-        public byte? LaboratoryWork { get; set; }
-        public byte? ClassWork { get; set; }
+        public DateTime LastIn { get; set; }
+        public int LaboratoryWork { get; set; }
+        public int ClassWork { get; set; }
         public byte? Crystal { get; set; }
 
 
