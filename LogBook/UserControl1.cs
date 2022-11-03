@@ -12,9 +12,17 @@ namespace LogBook
 {
     public partial class UserControl1 : UserControl
     {
-        public UserControl1()
+
+
+
+
+
+
+        public UserControl1(Student student)
         {
             InitializeComponent();
+
+            nameLbl.Text = student.FullName;
         }
     }
 }

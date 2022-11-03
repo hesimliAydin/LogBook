@@ -8,7 +8,6 @@ namespace LogBook
 {
     public class Student
     {
-        
         public int Number { get; set; }
         public string? FirtName { get; set; }
         public string? LastName { get; set; }
@@ -19,6 +18,11 @@ namespace LogBook
         public byte? Crystal { get; set; }
 
 
+        public string FullName =>$"{FirtName} {LastName} {FatherName}";
+        public Istirak Istirak { get; set; }
+
 
     }
+
+    public enum Istirak {Gelmiyib,Gecikib,Istirak };
 }
