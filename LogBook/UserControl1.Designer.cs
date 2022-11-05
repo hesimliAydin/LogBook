@@ -48,18 +48,20 @@
             // nameLbl
             // 
             this.nameLbl.AutoSize = true;
+            this.nameLbl.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nameLbl.Location = new System.Drawing.Point(51, 58);
             this.nameLbl.Name = "nameLbl";
-            this.nameLbl.Size = new System.Drawing.Size(50, 20);
+            this.nameLbl.Size = new System.Drawing.Size(63, 25);
             this.nameLbl.TabIndex = 1;
             this.nameLbl.Text = "label2";
             // 
             // lastDayLbl
             // 
             this.lastDayLbl.AutoSize = true;
+            this.lastDayLbl.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lastDayLbl.Location = new System.Drawing.Point(347, 58);
             this.lastDayLbl.Name = "lastDayLbl";
-            this.lastDayLbl.Size = new System.Drawing.Size(50, 20);
+            this.lastDayLbl.Size = new System.Drawing.Size(63, 25);
             this.lastDayLbl.TabIndex = 2;
             this.lastDayLbl.Text = "label3";
             // 
